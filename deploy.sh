@@ -25,7 +25,7 @@ git remote add origin git@github.com:dimabilokhonov/resume.git
 
 
 # если вы публикуете по адресу https://<USERNAME>.github.io/<REPO>
-git push -f origin git@github.com:dimabilokhonov/dimabilokhonov.github.io main:gh-pages
+git push -f git@github.com:dimabilokhonov/resume.git main:gh-pages
 
 
 cd -
