@@ -13,19 +13,19 @@ cd dist
 # echo 'www.example.com' > CNAME
 
 git init
-git config --local user.name "micromechanika"
-git config --local user.email "micromechanika@gmail.com"
+git config --local user.name "dimabilokhonov"
+git config --local user.email "dmitriy.bilokhonov@gmail.com"
 
 git add -A
 git commit -m 'deploy'
-git remote add origin git@github.com:micromechanika/vueresumedeploy.git
+git remote add origin git remote add origin git@github.com:dimabilokhonov/resume.git
 
 # если вы публикуете по адресу https://<USERNAME>.github.io
 #git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 
 
 # если вы публикуете по адресу https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:micromechanika/vueresumedeploy.git master:gh-pages
+git push -f git remote add origin git@github.com:dimabilokhonov/resume.git master:gh-pages
 
 
 cd -
