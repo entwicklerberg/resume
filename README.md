@@ -1,23 +1,23 @@
-# micromechanicaresume
+# dimabilokhonov
 
 ## Project setup
 ```
-npm install
+yarn 
 ```
 
 ### Compiles and hot-reloads for development
 ```
-npm start
+yern start
 ```
 
 ### Compiles and minifies for production
 ```
-npm run prod
+yarn prod
 ```
 
 ### Lints and fixes files
 ```
-npm run lint
+yarn lint
 ```
 
 ### Customize configuration

@@ -4,7 +4,7 @@
 set -e
 
 # сборка
-npm run prod
+yarn prod
 
 # переход в каталог сборки
 cd dist
@@ -18,14 +18,14 @@ git config --local user.email "dmitriy.bilokhonov@gmail.com"
 
 git add -A
 git commit -m 'deploy'
-git remote add origin git remote add origin git@github.com:dimabilokhonov/resume.git
+git remote add origin git@github.com:dimabilokhonov/resume.git
 
 # если вы публикуете по адресу https://<USERNAME>.github.io
 #git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 
 
 # если вы публикуете по адресу https://<USERNAME>.github.io/<REPO>
-git push -f git remote add origin git@github.com:dimabilokhonov/resume.git master:gh-pages
+git push -f origin git@github.com:dimabilokhonov/dimabilokhonov.github.io main:gh-pages
 
 
 cd -
