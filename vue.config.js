@@ -1,7 +1,7 @@
 module.exports = {
-  publicPath: process.env.NODE_ENV === 'production'
-    ? '/vueresumedeploy/'
-    : '/',
+  // publicPath: process.env.NODE_ENV === 'production'
+  //   ? '/resume/'
+  //   : '/',
   css: {
     loaderOptions: {
       sass: {

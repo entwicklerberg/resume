@@ -1,31 +1,28 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 
-import desktop from '@/views/desktop'
-import cv from '@/views/cv'
-
 Vue.use(VueRouter)
 
 const routes = [
   {
     path: '*',
     redirect: '/desktop',
-    component: desktop
+    component: () => import('../views/desktop')
   },
   {
     path: '/',
-    redirect: '/descktop',
-    component: desktop
+    redirect: '/desktop',
+    component: () => import('../views/desktop')
   },
   {
-    path: '/descktop',
-    name: 'descktop',
-    component: desktop
+    path: '/desktop',
+    name: 'desktop',
+    component: () => import('../views/desktop')
   },
   {
     path: '/cv',
     name: 'cv',
-    component: cv
+    component: () => import('../views/cv')
   }
 ]
 
