@@ -21,7 +21,7 @@
       />
     </div>
     <div class="nuxtLogo">
-      <img src="../../public/img/nuxtLogo.svg" />
+      <img src="../../public/img/nuxtLogo.svg" alt="nuxtLogo"/>
     </div>
   </div>
 </template>
@@ -32,7 +32,7 @@ import Navigation from './components/navigation/Navigation'
 import { animations } from './components/mixins/animation'
 
 export default {
-  name: 'descktop',
+  name: 'desktop',
   mixins: [animations],
   components: { Navigation },
   data () {
