@@ -5,7 +5,8 @@
   "scripts": {
     "start": "vue-cli-service serve --open --watch",
     "prod": "NODE_ENV=production vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "deploy": "sh ./deploy.sh"
   },
   "dependencies": {
     "core-js": "^3.4.4",
