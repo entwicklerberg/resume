@@ -1,0 +1,33 @@
+//@import "animateCSS";
+
+$tablet: "880px";
+$desctop: "1024px";
+
+//main site color
+//background
+$white: #ffffff;
+//text
+$green: #00c58e;
+$black: #2e495e;
+$span: rgba(47, 73, 94, 0.4);
+$shadow: rgba(0, 197, 142, 0.22);
+
+@mixin mQ($arg) {
+  @media screen and (min-width: $arg) {
+    @content;
+  }
+}
+
+@mixin font-parameters {
+  font-weight: 900;
+  line-height: 90%;
+  opacity: 0.99;
+  margin: 0;
+  padding: 0;
+}
+
+@mixin print(){
+  @media print {
+    @content
+  }
+}
