@@ -10,7 +10,6 @@
             My goal to work on a cool project, with the possibility of relocating.
             In a project I use all instruments for team development like Docker, Postman, etc.
             I have one year experience work with cordova and capacitor.
-            My rate 20 $/h
           </p>
         </div>
         <div class="info">
