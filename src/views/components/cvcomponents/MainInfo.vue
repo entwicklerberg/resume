@@ -97,7 +97,7 @@
         </div>
         <div class="info">
           <b>Secondary technical education:</b>
-          <p><span>2003 – 2004</span></p>
+          <p><span>2011 – 2012</span></p>
           <p>
             Kharkiv Profesional polygraphic College, Maintenance of polygraphic
             machines and typographer
