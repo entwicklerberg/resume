@@ -109,7 +109,7 @@
           <p>Easycode Frontend (js)</p>
         </div>
         <div class="info">
-          <p><span>Fab. 2016 – Apr.</span></p>
+          <p><span>Fab. 2016 – Apr. 2017 </span></p>
           <p>2017 SourceIT web-programing (php)</p>
         </div>
       </section>
