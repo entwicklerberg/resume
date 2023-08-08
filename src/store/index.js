@@ -113,7 +113,7 @@ export default new Vuex.Store({
         {
           n: 'git',
           i: 'img/cvlinks/git.svg',
-          l: 'https://github.com/dimabilokhonov'
+          l: 'https://github.com/entwicklerberg'
         },
         {
           n: 'linkedin',
