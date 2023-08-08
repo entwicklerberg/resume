@@ -1,7 +1,6 @@
 <template>
   <address>
-    <p>Kharkiv, Ukraine</p>
-    <p><a href="tel:+38 (063) 368 08 18" rel="nofollow">+38 (063) 368-08-18</a></p>
+    <p>Viehöven, Deutschland</p>
     <p><a href="mailto:dmitriy.bilokhonov@gmail.com?Subject=Answer for my resume" target="_top">dmitriy.bilokhonov@gmail.com</a></p>
   </address>
 </template>
